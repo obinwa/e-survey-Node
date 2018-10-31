@@ -1,0 +1,1855 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData axios
+20 silly mapToRegistry name axios
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'axios',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'axios',
+23 silly mapToRegistry   name: 'axios',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/axios
+25 silly fetchNamedPackageData body-parser
+26 silly mapToRegistry name body-parser
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'body-parser',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'body-parser',
+29 silly mapToRegistry   name: 'body-parser',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+31 silly fetchNamedPackageData bootstrap
+32 silly mapToRegistry name bootstrap
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'bootstrap',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'bootstrap',
+35 silly mapToRegistry   name: 'bootstrap',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+37 silly fetchNamedPackageData concurrently
+38 silly mapToRegistry name concurrently
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'concurrently',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'concurrently',
+41 silly mapToRegistry   name: 'concurrently',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/concurrently
+43 silly fetchNamedPackageData connect-flash
+44 silly mapToRegistry name connect-flash
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'connect-flash',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'connect-flash',
+47 silly mapToRegistry   name: 'connect-flash',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/connect-flash
+49 silly fetchNamedPackageData connect-mongo
+50 silly mapToRegistry name connect-mongo
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'connect-mongo',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'connect-mongo',
+53 silly mapToRegistry   name: 'connect-mongo',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/connect-mongo
+55 silly fetchNamedPackageData cookie-parser
+56 silly mapToRegistry name cookie-parser
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'cookie-parser',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'cookie-parser',
+59 silly mapToRegistry   name: 'cookie-parser',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+61 silly fetchNamedPackageData dompurify
+62 silly mapToRegistry name dompurify
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'dompurify',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'dompurify',
+65 silly mapToRegistry   name: 'dompurify',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/dompurify
+67 silly fetchNamedPackageData dotenv
+68 silly mapToRegistry name dotenv
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'dotenv',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'dotenv',
+71 silly mapToRegistry   name: 'dotenv',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/dotenv
+73 silly fetchNamedPackageData es6-promisify
+74 silly mapToRegistry name es6-promisify
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'es6-promisify',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'es6-promisify',
+77 silly mapToRegistry   name: 'es6-promisify',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/es6-promisify
+79 silly fetchNamedPackageData express
+80 silly mapToRegistry name express
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'express',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'express',
+83 silly mapToRegistry   name: 'express',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/express
+85 silly fetchNamedPackageData express-session
+86 silly mapToRegistry name express-session
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'express-session',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'express-session',
+89 silly mapToRegistry   name: 'express-session',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/express-session
+91 silly fetchNamedPackageData express-validator
+92 silly mapToRegistry name express-validator
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'express-validator',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'express-validator',
+95 silly mapToRegistry   name: 'express-validator',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/express-validator
+97 silly fetchNamedPackageData faker
+98 silly mapToRegistry name faker
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'faker',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'faker',
+101 silly mapToRegistry   name: 'faker',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/faker
+103 silly fetchNamedPackageData forever
+104 silly mapToRegistry name forever
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'forever',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'forever',
+107 silly mapToRegistry   name: 'forever',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/forever
+109 silly fetchNamedPackageData glob
+110 silly mapToRegistry name glob
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'glob',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'glob',
+113 silly mapToRegistry   name: 'glob',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/glob
+115 silly fetchNamedPackageData html-to-text
+116 silly mapToRegistry name html-to-text
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'html-to-text',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   escapedName: 'html-to-text',
+119 silly mapToRegistry   name: 'html-to-text',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npmjs.org/html-to-text
+121 silly fetchNamedPackageData jimp
+122 silly mapToRegistry name jimp
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'jimp',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   escapedName: 'jimp',
+125 silly mapToRegistry   name: 'jimp',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/jimp
+127 silly fetchNamedPackageData jquery
+128 silly mapToRegistry name jquery
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'jquery',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   escapedName: 'jquery',
+131 silly mapToRegistry   name: 'jquery',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/jquery
+133 silly fetchNamedPackageData juice
+134 silly mapToRegistry name juice
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry data Result {
+137 silly mapToRegistry   raw: 'juice',
+137 silly mapToRegistry   scope: null,
+137 silly mapToRegistry   escapedName: 'juice',
+137 silly mapToRegistry   name: 'juice',
+137 silly mapToRegistry   rawSpec: '',
+137 silly mapToRegistry   spec: 'latest',
+137 silly mapToRegistry   type: 'tag' }
+138 silly mapToRegistry uri https://registry.npmjs.org/juice
+139 silly fetchNamedPackageData md5
+140 silly mapToRegistry name md5
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'md5',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   escapedName: 'md5',
+143 silly mapToRegistry   name: 'md5',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag' }
+144 silly mapToRegistry uri https://registry.npmjs.org/md5
+145 silly fetchNamedPackageData moment
+146 silly mapToRegistry name moment
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry data Result {
+149 silly mapToRegistry   raw: 'moment',
+149 silly mapToRegistry   scope: null,
+149 silly mapToRegistry   escapedName: 'moment',
+149 silly mapToRegistry   name: 'moment',
+149 silly mapToRegistry   rawSpec: '',
+149 silly mapToRegistry   spec: 'latest',
+149 silly mapToRegistry   type: 'tag' }
+150 silly mapToRegistry uri https://registry.npmjs.org/moment
+151 silly fetchNamedPackageData mongoose
+152 silly mapToRegistry name mongoose
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry data Result {
+155 silly mapToRegistry   raw: 'mongoose',
+155 silly mapToRegistry   scope: null,
+155 silly mapToRegistry   escapedName: 'mongoose',
+155 silly mapToRegistry   name: 'mongoose',
+155 silly mapToRegistry   rawSpec: '',
+155 silly mapToRegistry   spec: 'latest',
+155 silly mapToRegistry   type: 'tag' }
+156 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+157 silly fetchNamedPackageData mongoose-mongodb-errors
+158 silly mapToRegistry name mongoose-mongodb-errors
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry data Result {
+161 silly mapToRegistry   raw: 'mongoose-mongodb-errors',
+161 silly mapToRegistry   scope: null,
+161 silly mapToRegistry   escapedName: 'mongoose-mongodb-errors',
+161 silly mapToRegistry   name: 'mongoose-mongodb-errors',
+161 silly mapToRegistry   rawSpec: '',
+161 silly mapToRegistry   spec: 'latest',
+161 silly mapToRegistry   type: 'tag' }
+162 silly mapToRegistry uri https://registry.npmjs.org/mongoose-mongodb-errors
+163 silly fetchNamedPackageData multer
+164 silly mapToRegistry name multer
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry data Result {
+167 silly mapToRegistry   raw: 'multer',
+167 silly mapToRegistry   scope: null,
+167 silly mapToRegistry   escapedName: 'multer',
+167 silly mapToRegistry   name: 'multer',
+167 silly mapToRegistry   rawSpec: '',
+167 silly mapToRegistry   spec: 'latest',
+167 silly mapToRegistry   type: 'tag' }
+168 silly mapToRegistry uri https://registry.npmjs.org/multer
+169 silly fetchNamedPackageData nodemailer
+170 silly mapToRegistry name nodemailer
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'nodemailer',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   escapedName: 'nodemailer',
+173 silly mapToRegistry   name: 'nodemailer',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://registry.npmjs.org/nodemailer
+175 silly fetchNamedPackageData passport
+176 silly mapToRegistry name passport
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry data Result {
+179 silly mapToRegistry   raw: 'passport',
+179 silly mapToRegistry   scope: null,
+179 silly mapToRegistry   escapedName: 'passport',
+179 silly mapToRegistry   name: 'passport',
+179 silly mapToRegistry   rawSpec: '',
+179 silly mapToRegistry   spec: 'latest',
+179 silly mapToRegistry   type: 'tag' }
+180 silly mapToRegistry uri https://registry.npmjs.org/passport
+181 silly fetchNamedPackageData passport-local
+182 silly mapToRegistry name passport-local
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'passport-local',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   escapedName: 'passport-local',
+185 silly mapToRegistry   name: 'passport-local',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+187 silly fetchNamedPackageData passport-local-mongoose
+188 silly mapToRegistry name passport-local-mongoose
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry https://registry.npmjs.org/
+191 silly mapToRegistry data Result {
+191 silly mapToRegistry   raw: 'passport-local-mongoose',
+191 silly mapToRegistry   scope: null,
+191 silly mapToRegistry   escapedName: 'passport-local-mongoose',
+191 silly mapToRegistry   name: 'passport-local-mongoose',
+191 silly mapToRegistry   rawSpec: '',
+191 silly mapToRegistry   spec: 'latest',
+191 silly mapToRegistry   type: 'tag' }
+192 silly mapToRegistry uri https://registry.npmjs.org/passport-local-mongoose
+193 silly fetchNamedPackageData pug
+194 silly mapToRegistry name pug
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry https://registry.npmjs.org/
+197 silly mapToRegistry data Result {
+197 silly mapToRegistry   raw: 'pug',
+197 silly mapToRegistry   scope: null,
+197 silly mapToRegistry   escapedName: 'pug',
+197 silly mapToRegistry   name: 'pug',
+197 silly mapToRegistry   rawSpec: '',
+197 silly mapToRegistry   spec: 'latest',
+197 silly mapToRegistry   type: 'tag' }
+198 silly mapToRegistry uri https://registry.npmjs.org/pug
+199 silly fetchNamedPackageData slugs
+200 silly mapToRegistry name slugs
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry https://registry.npmjs.org/
+203 silly mapToRegistry data Result {
+203 silly mapToRegistry   raw: 'slugs',
+203 silly mapToRegistry   scope: null,
+203 silly mapToRegistry   escapedName: 'slugs',
+203 silly mapToRegistry   name: 'slugs',
+203 silly mapToRegistry   rawSpec: '',
+203 silly mapToRegistry   spec: 'latest',
+203 silly mapToRegistry   type: 'tag' }
+204 silly mapToRegistry uri https://registry.npmjs.org/slugs
+205 silly fetchNamedPackageData smartwizard
+206 silly mapToRegistry name smartwizard
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry data Result {
+209 silly mapToRegistry   raw: 'smartwizard',
+209 silly mapToRegistry   scope: null,
+209 silly mapToRegistry   escapedName: 'smartwizard',
+209 silly mapToRegistry   name: 'smartwizard',
+209 silly mapToRegistry   rawSpec: '',
+209 silly mapToRegistry   spec: 'latest',
+209 silly mapToRegistry   type: 'tag' }
+210 silly mapToRegistry uri https://registry.npmjs.org/smartwizard
+211 silly fetchNamedPackageData sweetalert2
+212 silly mapToRegistry name sweetalert2
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry data Result {
+215 silly mapToRegistry   raw: 'sweetalert2',
+215 silly mapToRegistry   scope: null,
+215 silly mapToRegistry   escapedName: 'sweetalert2',
+215 silly mapToRegistry   name: 'sweetalert2',
+215 silly mapToRegistry   rawSpec: '',
+215 silly mapToRegistry   spec: 'latest',
+215 silly mapToRegistry   type: 'tag' }
+216 silly mapToRegistry uri https://registry.npmjs.org/sweetalert2
+217 silly fetchNamedPackageData uuid
+218 silly mapToRegistry name uuid
+219 silly mapToRegistry using default registry
+220 silly mapToRegistry registry https://registry.npmjs.org/
+221 silly mapToRegistry data Result {
+221 silly mapToRegistry   raw: 'uuid',
+221 silly mapToRegistry   scope: null,
+221 silly mapToRegistry   escapedName: 'uuid',
+221 silly mapToRegistry   name: 'uuid',
+221 silly mapToRegistry   rawSpec: '',
+221 silly mapToRegistry   spec: 'latest',
+221 silly mapToRegistry   type: 'tag' }
+222 silly mapToRegistry uri https://registry.npmjs.org/uuid
+223 silly fetchNamedPackageData validator
+224 silly mapToRegistry name validator
+225 silly mapToRegistry using default registry
+226 silly mapToRegistry registry https://registry.npmjs.org/
+227 silly mapToRegistry data Result {
+227 silly mapToRegistry   raw: 'validator',
+227 silly mapToRegistry   scope: null,
+227 silly mapToRegistry   escapedName: 'validator',
+227 silly mapToRegistry   name: 'validator',
+227 silly mapToRegistry   rawSpec: '',
+227 silly mapToRegistry   spec: 'latest',
+227 silly mapToRegistry   type: 'tag' }
+228 silly mapToRegistry uri https://registry.npmjs.org/validator
+229 verbose request uri https://registry.npmjs.org/axios
+230 verbose request no auth needed
+231 info attempt registry request try #1 at 3:41:05 PM
+232 verbose request id 64ad776a63c5afa5
+233 http request GET https://registry.npmjs.org/axios
+234 verbose request uri https://registry.npmjs.org/bootstrap
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 3:41:06 PM
+237 http request GET https://registry.npmjs.org/bootstrap
+238 verbose request uri https://registry.npmjs.org/concurrently
+239 verbose request no auth needed
+240 info attempt registry request try #1 at 3:41:10 PM
+241 http request GET https://registry.npmjs.org/concurrently
+242 verbose request uri https://registry.npmjs.org/connect-mongo
+243 verbose request no auth needed
+244 info attempt registry request try #1 at 3:41:10 PM
+245 http request GET https://registry.npmjs.org/connect-mongo
+246 verbose request uri https://registry.npmjs.org/connect-flash
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 3:41:10 PM
+249 http request GET https://registry.npmjs.org/connect-flash
+250 verbose request uri https://registry.npmjs.org/dompurify
+251 verbose request no auth needed
+252 info attempt registry request try #1 at 3:41:10 PM
+253 http request GET https://registry.npmjs.org/dompurify
+254 verbose request uri https://registry.npmjs.org/dotenv
+255 verbose request no auth needed
+256 info attempt registry request try #1 at 3:41:10 PM
+257 http request GET https://registry.npmjs.org/dotenv
+258 verbose request uri https://registry.npmjs.org/es6-promisify
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 3:41:10 PM
+261 http request GET https://registry.npmjs.org/es6-promisify
+262 verbose request uri https://registry.npmjs.org/cookie-parser
+263 verbose request no auth needed
+264 info attempt registry request try #1 at 3:41:10 PM
+265 http request GET https://registry.npmjs.org/cookie-parser
+266 verbose request uri https://registry.npmjs.org/express-session
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 3:41:10 PM
+269 http request GET https://registry.npmjs.org/express-session
+270 verbose request uri https://registry.npmjs.org/faker
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 3:41:10 PM
+273 http request GET https://registry.npmjs.org/faker
+274 verbose request uri https://registry.npmjs.org/forever
+275 verbose request no auth needed
+276 info attempt registry request try #1 at 3:41:10 PM
+277 http request GET https://registry.npmjs.org/forever
+278 verbose request uri https://registry.npmjs.org/express-validator
+279 verbose request no auth needed
+280 info attempt registry request try #1 at 3:41:10 PM
+281 http request GET https://registry.npmjs.org/express-validator
+282 verbose request uri https://registry.npmjs.org/html-to-text
+283 verbose request no auth needed
+284 info attempt registry request try #1 at 3:41:10 PM
+285 http request GET https://registry.npmjs.org/html-to-text
+286 verbose request uri https://registry.npmjs.org/jimp
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 3:41:10 PM
+289 http request GET https://registry.npmjs.org/jimp
+290 verbose request uri https://registry.npmjs.org/juice
+291 verbose request no auth needed
+292 info attempt registry request try #1 at 3:41:10 PM
+293 http request GET https://registry.npmjs.org/juice
+294 verbose request uri https://registry.npmjs.org/md5
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 3:41:10 PM
+297 http request GET https://registry.npmjs.org/md5
+298 verbose request uri https://registry.npmjs.org/moment
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 3:41:10 PM
+301 http request GET https://registry.npmjs.org/moment
+302 verbose request uri https://registry.npmjs.org/mongoose-mongodb-errors
+303 verbose request no auth needed
+304 info attempt registry request try #1 at 3:41:10 PM
+305 http request GET https://registry.npmjs.org/mongoose-mongodb-errors
+306 verbose request uri https://registry.npmjs.org/multer
+307 verbose request no auth needed
+308 info attempt registry request try #1 at 3:41:10 PM
+309 http request GET https://registry.npmjs.org/multer
+310 verbose request uri https://registry.npmjs.org/nodemailer
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 3:41:10 PM
+313 http request GET https://registry.npmjs.org/nodemailer
+314 verbose request uri https://registry.npmjs.org/passport
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 3:41:10 PM
+317 http request GET https://registry.npmjs.org/passport
+318 verbose request uri https://registry.npmjs.org/passport-local-mongoose
+319 verbose request no auth needed
+320 info attempt registry request try #1 at 3:41:10 PM
+321 http request GET https://registry.npmjs.org/passport-local-mongoose
+322 verbose request uri https://registry.npmjs.org/passport-local
+323 verbose request no auth needed
+324 info attempt registry request try #1 at 3:41:10 PM
+325 http request GET https://registry.npmjs.org/passport-local
+326 verbose request uri https://registry.npmjs.org/pug
+327 verbose request no auth needed
+328 info attempt registry request try #1 at 3:41:10 PM
+329 http request GET https://registry.npmjs.org/pug
+330 verbose request uri https://registry.npmjs.org/smartwizard
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 3:41:10 PM
+333 http request GET https://registry.npmjs.org/smartwizard
+334 verbose request uri https://registry.npmjs.org/slugs
+335 verbose request no auth needed
+336 info attempt registry request try #1 at 3:41:10 PM
+337 http request GET https://registry.npmjs.org/slugs
+338 verbose request uri https://registry.npmjs.org/sweetalert2
+339 verbose request no auth needed
+340 info attempt registry request try #1 at 3:41:10 PM
+341 http request GET https://registry.npmjs.org/sweetalert2
+342 verbose request uri https://registry.npmjs.org/validator
+343 verbose request no auth needed
+344 info attempt registry request try #1 at 3:41:10 PM
+345 http request GET https://registry.npmjs.org/validator
+346 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+347 info attempt registry request try #2 at 3:41:27 PM
+348 http request GET https://registry.npmjs.org/connect-mongo
+349 verbose request uri https://registry.npmjs.org/body-parser
+350 verbose request no auth needed
+351 info attempt registry request try #1 at 3:41:32 PM
+352 verbose etag "5a95e75e-23732"
+353 verbose lastModified Tue, 27 Feb 2018 23:18:54 GMT
+354 http request GET https://registry.npmjs.org/body-parser
+355 verbose request uri https://registry.npmjs.org/express
+356 verbose request no auth needed
+357 info attempt registry request try #1 at 3:41:32 PM
+358 verbose etag "5a991cd3-940b8"
+359 verbose lastModified Fri, 2 Mar 2018 9:43:47 GMT
+360 http request GET https://registry.npmjs.org/express
+361 verbose request uri https://registry.npmjs.org/glob
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 3:41:32 PM
+364 verbose etag "5a8af94c-201d5"
+365 verbose lastModified Mon, 19 Feb 2018 16:20:28 GMT
+366 http request GET https://registry.npmjs.org/glob
+367 verbose request uri https://registry.npmjs.org/jquery
+368 verbose request no auth needed
+369 info attempt registry request try #1 at 3:41:32 PM
+370 verbose etag "5a637bf2-17cf9"
+371 verbose lastModified Sat, 20 Jan 2018 17:27:14 GMT
+372 http request GET https://registry.npmjs.org/jquery
+373 verbose request uri https://registry.npmjs.org/uuid
+374 verbose request no auth needed
+375 info attempt registry request try #1 at 3:41:32 PM
+376 verbose etag "5aa8a8a9-84cc"
+377 verbose lastModified Wed, 14 Mar 2018 4:44:25 GMT
+378 http request GET https://registry.npmjs.org/uuid
+379 verbose request uri https://registry.npmjs.org/mongoose
+380 verbose request no auth needed
+381 info attempt registry request try #1 at 3:41:32 PM
+382 verbose etag W/"c90970b0b568dff7b5d8f6d1f62e5d09"
+383 verbose lastModified Tue, 29 May 2018 00:06:18 GMT
+384 http request GET https://registry.npmjs.org/mongoose
+385 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+386 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+387 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+388 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+389 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+390 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+391 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+392 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+393 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+394 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+395 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+396 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+397 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+398 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+399 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+400 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+401 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+402 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+403 info attempt registry request try #2 at 3:41:46 PM
+404 http request GET https://registry.npmjs.org/axios
+405 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+406 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+407 info attempt registry request try #2 at 3:41:47 PM
+408 http request GET https://registry.npmjs.org/bootstrap
+409 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+410 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+411 info attempt registry request try #2 at 3:41:48 PM
+412 http request GET https://registry.npmjs.org/connect-flash
+413 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+414 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+415 info attempt registry request try #2 at 3:41:49 PM
+416 http request GET https://registry.npmjs.org/concurrently
+417 info attempt registry request try #2 at 3:41:49 PM
+418 http request GET https://registry.npmjs.org/dompurify
+419 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+420 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+421 info attempt registry request try #2 at 3:41:50 PM
+422 http request GET https://registry.npmjs.org/dotenv
+423 info attempt registry request try #2 at 3:41:50 PM
+424 http request GET https://registry.npmjs.org/es6-promisify
+425 info attempt registry request try #2 at 3:41:51 PM
+426 http request GET https://registry.npmjs.org/cookie-parser
+427 info attempt registry request try #2 at 3:41:51 PM
+428 http request GET https://registry.npmjs.org/express-session
+429 info attempt registry request try #2 at 3:41:52 PM
+430 http request GET https://registry.npmjs.org/faker
+431 info attempt registry request try #2 at 3:41:52 PM
+432 http request GET https://registry.npmjs.org/forever
+433 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+434 info attempt registry request try #2 at 3:41:53 PM
+435 http request GET https://registry.npmjs.org/express-validator
+436 info attempt registry request try #2 at 3:41:53 PM
+437 http request GET https://registry.npmjs.org/html-to-text
+438 info attempt registry request try #2 at 3:41:54 PM
+439 http request GET https://registry.npmjs.org/jimp
+440 info attempt registry request try #2 at 3:41:54 PM
+441 http request GET https://registry.npmjs.org/juice
+442 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+443 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+444 info attempt registry request try #2 at 3:41:55 PM
+445 http request GET https://registry.npmjs.org/md5
+446 info attempt registry request try #2 at 3:41:55 PM
+447 http request GET https://registry.npmjs.org/moment
+448 info attempt registry request try #2 at 3:41:56 PM
+449 http request GET https://registry.npmjs.org/mongoose-mongodb-errors
+450 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+451 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+452 info attempt registry request try #2 at 3:41:56 PM
+453 http request GET https://registry.npmjs.org/multer
+454 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+455 info attempt registry request try #2 at 3:41:57 PM
+456 http request GET https://registry.npmjs.org/nodemailer
+457 info attempt registry request try #2 at 3:41:57 PM
+458 http request GET https://registry.npmjs.org/passport
+459 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+460 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+461 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+462 info attempt registry request try #2 at 3:41:59 PM
+463 http request GET https://registry.npmjs.org/passport-local-mongoose
+464 info attempt registry request try #2 at 3:41:59 PM
+465 http request GET https://registry.npmjs.org/passport-local
+466 info attempt registry request try #2 at 3:41:59 PM
+467 http request GET https://registry.npmjs.org/smartwizard
+468 info attempt registry request try #2 at 3:41:59 PM
+469 http request GET https://registry.npmjs.org/pug
+470 info attempt registry request try #2 at 3:42:02 PM
+471 http request GET https://registry.npmjs.org/slugs
+472 info attempt registry request try #2 at 3:42:04 PM
+473 http request GET https://registry.npmjs.org/sweetalert2
+474 info attempt registry request try #2 at 3:42:05 PM
+475 verbose etag "5a95e75e-23732"
+476 verbose lastModified Tue, 27 Feb 2018 23:18:54 GMT
+477 http request GET https://registry.npmjs.org/body-parser
+478 info attempt registry request try #2 at 3:42:06 PM
+479 http request GET https://registry.npmjs.org/validator
+480 info attempt registry request try #2 at 3:42:06 PM
+481 verbose etag "5a991cd3-940b8"
+482 verbose lastModified Fri, 2 Mar 2018 9:43:47 GMT
+483 http request GET https://registry.npmjs.org/express
+484 info attempt registry request try #2 at 3:42:07 PM
+485 verbose etag "5a8af94c-201d5"
+486 verbose lastModified Mon, 19 Feb 2018 16:20:28 GMT
+487 http request GET https://registry.npmjs.org/glob
+488 info attempt registry request try #2 at 3:42:08 PM
+489 verbose etag "5a637bf2-17cf9"
+490 verbose lastModified Sat, 20 Jan 2018 17:27:14 GMT
+491 http request GET https://registry.npmjs.org/jquery
+492 info attempt registry request try #2 at 3:42:08 PM
+493 verbose etag W/"c90970b0b568dff7b5d8f6d1f62e5d09"
+494 verbose lastModified Tue, 29 May 2018 00:06:18 GMT
+495 http request GET https://registry.npmjs.org/mongoose
+496 info attempt registry request try #2 at 3:42:08 PM
+497 verbose etag "5aa8a8a9-84cc"
+498 verbose lastModified Wed, 14 Mar 2018 4:44:25 GMT
+499 http request GET https://registry.npmjs.org/uuid
+500 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+501 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+502 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+503 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+504 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+505 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+506 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+507 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+508 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+509 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+510 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+511 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+512 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+513 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+514 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+515 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+516 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+517 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+518 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+519 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+520 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+521 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+522 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+523 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+524 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+525 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+526 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+527 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+528 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+529 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+530 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+531 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+532 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+533 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+534 info attempt registry request try #3 at 3:42:35 PM
+535 http request GET https://registry.npmjs.org/connect-mongo
+536 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.94.96:443
+536 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+536 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+536 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+536 silly fetchPackageMetaData  error for connect-mongo@^1.3.2 { Error: connect ETIMEDOUT 104.18.94.96:443
+536 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+536 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+536 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+536 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+536 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+536 silly fetchPackageMetaData   syscall: 'connect',
+536 silly fetchPackageMetaData   address: '104.18.94.96',
+536 silly fetchPackageMetaData   port: 443 }
+537 info attempt registry request try #3 at 3:43:11 PM
+538 http request GET https://registry.npmjs.org/axios
+539 info attempt registry request try #3 at 3:43:12 PM
+540 http request GET https://registry.npmjs.org/concurrently
+541 info attempt registry request try #3 at 3:43:13 PM
+542 http request GET https://registry.npmjs.org/bootstrap
+543 info attempt registry request try #3 at 3:43:13 PM
+544 http request GET https://registry.npmjs.org/dompurify
+545 info attempt registry request try #3 at 3:43:14 PM
+546 http request GET https://registry.npmjs.org/dotenv
+547 info attempt registry request try #3 at 3:43:15 PM
+548 http request GET https://registry.npmjs.org/es6-promisify
+549 info attempt registry request try #3 at 3:43:15 PM
+550 http request GET https://registry.npmjs.org/connect-flash
+551 info attempt registry request try #3 at 3:43:15 PM
+552 http request GET https://registry.npmjs.org/cookie-parser
+553 info attempt registry request try #3 at 3:43:16 PM
+554 http request GET https://registry.npmjs.org/express-session
+555 info attempt registry request try #3 at 3:43:17 PM
+556 http request GET https://registry.npmjs.org/faker
+557 info attempt registry request try #3 at 3:43:17 PM
+558 http request GET https://registry.npmjs.org/forever
+559 info attempt registry request try #3 at 3:43:17 PM
+560 http request GET https://registry.npmjs.org/express-validator
+561 info attempt registry request try #3 at 3:43:18 PM
+562 http request GET https://registry.npmjs.org/html-to-text
+563 info attempt registry request try #3 at 3:43:19 PM
+564 http request GET https://registry.npmjs.org/juice
+565 info attempt registry request try #3 at 3:43:19 PM
+566 http request GET https://registry.npmjs.org/jimp
+567 info attempt registry request try #3 at 3:43:19 PM
+568 http request GET https://registry.npmjs.org/md5
+569 info attempt registry request try #3 at 3:43:20 PM
+570 http request GET https://registry.npmjs.org/moment
+571 info attempt registry request try #3 at 3:43:21 PM
+572 http request GET https://registry.npmjs.org/mongoose-mongodb-errors
+573 info attempt registry request try #3 at 3:43:21 PM
+574 http request GET https://registry.npmjs.org/multer
+575 info attempt registry request try #3 at 3:43:21 PM
+576 http request GET https://registry.npmjs.org/nodemailer
+577 info attempt registry request try #3 at 3:43:22 PM
+578 http request GET https://registry.npmjs.org/passport
+579 info attempt registry request try #3 at 3:43:23 PM
+580 http request GET https://registry.npmjs.org/passport-local-mongoose
+581 info attempt registry request try #3 at 3:43:23 PM
+582 http request GET https://registry.npmjs.org/passport-local
+583 info attempt registry request try #3 at 3:43:23 PM
+584 http request GET https://registry.npmjs.org/smartwizard
+585 info attempt registry request try #3 at 3:43:24 PM
+586 http request GET https://registry.npmjs.org/pug
+587 info attempt registry request try #3 at 3:43:25 PM
+588 http request GET https://registry.npmjs.org/slugs
+589 info attempt registry request try #3 at 3:43:30 PM
+590 http request GET https://registry.npmjs.org/sweetalert2
+591 info attempt registry request try #3 at 3:43:30 PM
+592 http request GET https://registry.npmjs.org/validator
+593 info attempt registry request try #3 at 3:43:30 PM
+594 verbose etag "5a991cd3-940b8"
+595 verbose lastModified Fri, 2 Mar 2018 9:43:47 GMT
+596 http request GET https://registry.npmjs.org/express
+597 info attempt registry request try #3 at 3:43:31 PM
+598 verbose etag "5a95e75e-23732"
+599 verbose lastModified Tue, 27 Feb 2018 23:18:54 GMT
+600 http request GET https://registry.npmjs.org/body-parser
+601 info attempt registry request try #3 at 3:43:31 PM
+602 verbose etag "5a637bf2-17cf9"
+603 verbose lastModified Sat, 20 Jan 2018 17:27:14 GMT
+604 http request GET https://registry.npmjs.org/jquery
+605 info attempt registry request try #3 at 3:43:31 PM
+606 verbose etag "5a8af94c-201d5"
+607 verbose lastModified Mon, 19 Feb 2018 16:20:28 GMT
+608 http request GET https://registry.npmjs.org/glob
+609 info attempt registry request try #3 at 3:43:31 PM
+610 verbose etag W/"c90970b0b568dff7b5d8f6d1f62e5d09"
+611 verbose lastModified Tue, 29 May 2018 00:06:18 GMT
+612 http request GET https://registry.npmjs.org/mongoose
+613 info attempt registry request try #3 at 3:43:33 PM
+614 verbose etag "5aa8a8a9-84cc"
+615 verbose lastModified Wed, 14 Mar 2018 4:44:25 GMT
+616 http request GET https://registry.npmjs.org/uuid
+617 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+617 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+617 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+617 silly fetchPackageMetaData  error for slugs@^0.1.3 { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+617 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+617 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+617 silly fetchPackageMetaData   code: 'ENOTFOUND',
+617 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+617 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+617 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+617 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+617 silly fetchPackageMetaData   port: 443 }
+618 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.95.96:443
+618 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+618 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+618 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+618 silly fetchPackageMetaData  error for axios@^0.15.3 { Error: connect ETIMEDOUT 104.18.95.96:443
+618 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+618 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+618 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+618 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+618 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+618 silly fetchPackageMetaData   syscall: 'connect',
+618 silly fetchPackageMetaData   address: '104.18.95.96',
+618 silly fetchPackageMetaData   port: 443 }
+619 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.97.96:443
+619 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+619 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+619 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+619 silly fetchPackageMetaData  error for dotenv@^4.0.0 { Error: connect ETIMEDOUT 104.18.97.96:443
+619 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+619 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+619 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+619 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+619 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+619 silly fetchPackageMetaData   syscall: 'connect',
+619 silly fetchPackageMetaData   address: '104.18.97.96',
+619 silly fetchPackageMetaData   port: 443 }
+620 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.96.96:443
+620 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+620 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+620 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+620 silly fetchPackageMetaData  error for concurrently@^3.4.0 { Error: connect ETIMEDOUT 104.18.96.96:443
+620 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+620 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+620 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+620 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+620 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+620 silly fetchPackageMetaData   syscall: 'connect',
+620 silly fetchPackageMetaData   address: '104.18.96.96',
+620 silly fetchPackageMetaData   port: 443 }
+621 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.98.96:443
+621 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+621 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+621 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+621 silly fetchPackageMetaData  error for bootstrap@^4.0.0-alpha.6 { Error: connect ETIMEDOUT 104.18.98.96:443
+621 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+621 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+621 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+621 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+621 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+621 silly fetchPackageMetaData   syscall: 'connect',
+621 silly fetchPackageMetaData   address: '104.18.98.96',
+621 silly fetchPackageMetaData   port: 443 }
+622 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.94.96:443
+622 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+622 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+622 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+622 silly fetchPackageMetaData  error for es6-promisify@^5.0.0 { Error: connect ETIMEDOUT 104.18.94.96:443
+622 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+622 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+622 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+622 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+622 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+622 silly fetchPackageMetaData   syscall: 'connect',
+622 silly fetchPackageMetaData   address: '104.18.94.96',
+622 silly fetchPackageMetaData   port: 443 }
+623 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.95.96:443
+623 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+623 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+623 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+623 silly fetchPackageMetaData  error for connect-flash@^0.1.1 { Error: connect ETIMEDOUT 104.18.95.96:443
+623 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+623 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+623 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+623 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+623 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+623 silly fetchPackageMetaData   syscall: 'connect',
+623 silly fetchPackageMetaData   address: '104.18.95.96',
+623 silly fetchPackageMetaData   port: 443 }
+624 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.96.96:443
+624 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+624 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+624 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+624 silly fetchPackageMetaData  error for dompurify@^0.8.5 { Error: connect ETIMEDOUT 104.18.96.96:443
+624 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+624 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+624 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+624 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+624 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+624 silly fetchPackageMetaData   syscall: 'connect',
+624 silly fetchPackageMetaData   address: '104.18.96.96',
+624 silly fetchPackageMetaData   port: 443 }
+625 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.97.96:443
+625 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+625 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+625 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+625 silly fetchPackageMetaData  error for cookie-parser@^1.4.3 { Error: connect ETIMEDOUT 104.18.97.96:443
+625 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+625 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+625 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+625 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+625 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+625 silly fetchPackageMetaData   syscall: 'connect',
+625 silly fetchPackageMetaData   address: '104.18.97.96',
+625 silly fetchPackageMetaData   port: 443 }
+626 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.98.96:443
+626 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+626 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+626 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+626 silly fetchPackageMetaData  error for express-session@^1.15.1 { Error: connect ETIMEDOUT 104.18.98.96:443
+626 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+626 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+626 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+626 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+626 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+626 silly fetchPackageMetaData   syscall: 'connect',
+626 silly fetchPackageMetaData   address: '104.18.98.96',
+626 silly fetchPackageMetaData   port: 443 }
+627 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.94.96:443
+627 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+627 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+627 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+627 silly fetchPackageMetaData  error for faker@^4.1.0 { Error: connect ETIMEDOUT 104.18.94.96:443
+627 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+627 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+627 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+627 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+627 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+627 silly fetchPackageMetaData   syscall: 'connect',
+627 silly fetchPackageMetaData   address: '104.18.94.96',
+627 silly fetchPackageMetaData   port: 443 }
+628 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.95.96:443
+628 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+628 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+628 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+628 silly fetchPackageMetaData  error for forever@^0.15.3 { Error: connect ETIMEDOUT 104.18.95.96:443
+628 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+628 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+628 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+628 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+628 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+628 silly fetchPackageMetaData   syscall: 'connect',
+628 silly fetchPackageMetaData   address: '104.18.95.96',
+628 silly fetchPackageMetaData   port: 443 }
+629 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.96.96:443
+629 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+629 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+629 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+629 silly fetchPackageMetaData  error for express-validator@^3.1.2 { Error: connect ETIMEDOUT 104.18.96.96:443
+629 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+629 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+629 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+629 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+629 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+629 silly fetchPackageMetaData   syscall: 'connect',
+629 silly fetchPackageMetaData   address: '104.18.96.96',
+629 silly fetchPackageMetaData   port: 443 }
+630 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.97.96:443
+630 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+630 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+630 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+630 silly fetchPackageMetaData  error for html-to-text@^3.2.0 { Error: connect ETIMEDOUT 104.18.97.96:443
+630 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+630 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+630 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+630 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+630 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+630 silly fetchPackageMetaData   syscall: 'connect',
+630 silly fetchPackageMetaData   address: '104.18.97.96',
+630 silly fetchPackageMetaData   port: 443 }
+631 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.98.96:443
+631 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+631 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+631 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+631 silly fetchPackageMetaData  error for juice@^4.2.3 { Error: connect ETIMEDOUT 104.18.98.96:443
+631 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+631 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+631 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+631 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+631 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+631 silly fetchPackageMetaData   syscall: 'connect',
+631 silly fetchPackageMetaData   address: '104.18.98.96',
+631 silly fetchPackageMetaData   port: 443 }
+632 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.95.96:443
+632 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+632 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+632 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+632 silly fetchPackageMetaData  error for md5@^2.2.1 { Error: connect ETIMEDOUT 104.18.95.96:443
+632 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+632 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+632 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+632 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+632 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+632 silly fetchPackageMetaData   syscall: 'connect',
+632 silly fetchPackageMetaData   address: '104.18.95.96',
+632 silly fetchPackageMetaData   port: 443 }
+633 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.94.96:443
+633 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+633 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+633 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+633 silly fetchPackageMetaData  error for jimp@^0.2.27 { Error: connect ETIMEDOUT 104.18.94.96:443
+633 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+633 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+633 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+633 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+633 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+633 silly fetchPackageMetaData   syscall: 'connect',
+633 silly fetchPackageMetaData   address: '104.18.94.96',
+633 silly fetchPackageMetaData   port: 443 }
+634 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.97.96:443
+634 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+634 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+634 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+634 silly fetchPackageMetaData  error for mongoose-mongodb-errors@0.0.2 { Error: connect ETIMEDOUT 104.18.97.96:443
+634 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+634 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+634 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+634 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+634 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+634 silly fetchPackageMetaData   syscall: 'connect',
+634 silly fetchPackageMetaData   address: '104.18.97.96',
+634 silly fetchPackageMetaData   port: 443 }
+635 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.96.96:443
+635 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+635 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+635 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+635 silly fetchPackageMetaData  error for moment@^2.22.0 { Error: connect ETIMEDOUT 104.18.96.96:443
+635 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+635 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+635 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+635 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+635 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+635 silly fetchPackageMetaData   syscall: 'connect',
+635 silly fetchPackageMetaData   address: '104.18.96.96',
+635 silly fetchPackageMetaData   port: 443 }
+636 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.98.96:443
+636 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+636 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+636 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+636 silly fetchPackageMetaData  error for multer@^1.3.0 { Error: connect ETIMEDOUT 104.18.98.96:443
+636 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+636 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+636 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+636 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+636 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+636 silly fetchPackageMetaData   syscall: 'connect',
+636 silly fetchPackageMetaData   address: '104.18.98.96',
+636 silly fetchPackageMetaData   port: 443 }
+637 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.94.96:443
+637 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+637 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+637 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+637 silly fetchPackageMetaData  error for nodemailer@^4.6.4 { Error: connect ETIMEDOUT 104.18.94.96:443
+637 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+637 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+637 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+637 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+637 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+637 silly fetchPackageMetaData   syscall: 'connect',
+637 silly fetchPackageMetaData   address: '104.18.94.96',
+637 silly fetchPackageMetaData   port: 443 }
+638 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.95.96:443
+638 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+638 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+638 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+638 silly fetchPackageMetaData  error for passport@^0.3.2 { Error: connect ETIMEDOUT 104.18.95.96:443
+638 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+638 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+638 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+638 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+638 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+638 silly fetchPackageMetaData   syscall: 'connect',
+638 silly fetchPackageMetaData   address: '104.18.95.96',
+638 silly fetchPackageMetaData   port: 443 }
+639 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.96.96:443
+639 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+639 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+639 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+639 silly fetchPackageMetaData  error for passport-local-mongoose@^4.5.0 { Error: connect ETIMEDOUT 104.18.96.96:443
+639 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+639 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+639 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+639 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+639 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+639 silly fetchPackageMetaData   syscall: 'connect',
+639 silly fetchPackageMetaData   address: '104.18.96.96',
+639 silly fetchPackageMetaData   port: 443 }
+640 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.97.96:443
+640 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+640 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+640 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+640 silly fetchPackageMetaData  error for passport-local@^1.0.0 { Error: connect ETIMEDOUT 104.18.97.96:443
+640 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+640 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+640 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+640 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+640 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+640 silly fetchPackageMetaData   syscall: 'connect',
+640 silly fetchPackageMetaData   address: '104.18.97.96',
+640 silly fetchPackageMetaData   port: 443 }
+641 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.98.96:443
+641 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+641 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+641 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+641 silly fetchPackageMetaData  error for smartwizard@^4.3.1 { Error: connect ETIMEDOUT 104.18.98.96:443
+641 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+641 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+641 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+641 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+641 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+641 silly fetchPackageMetaData   syscall: 'connect',
+641 silly fetchPackageMetaData   address: '104.18.98.96',
+641 silly fetchPackageMetaData   port: 443 }
+642 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.94.96:443
+642 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+642 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+642 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+642 silly fetchPackageMetaData  error for sweetalert2@^7.18.0 { Error: connect ETIMEDOUT 104.18.94.96:443
+642 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+642 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+642 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+642 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+642 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+642 silly fetchPackageMetaData   syscall: 'connect',
+642 silly fetchPackageMetaData   address: '104.18.94.96',
+642 silly fetchPackageMetaData   port: 443 }
+643 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.95.96:443
+643 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+643 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+643 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+643 silly fetchPackageMetaData  error for pug@^2.0.3 { Error: connect ETIMEDOUT 104.18.95.96:443
+643 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+643 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+643 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+643 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+643 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+643 silly fetchPackageMetaData   syscall: 'connect',
+643 silly fetchPackageMetaData   address: '104.18.95.96',
+643 silly fetchPackageMetaData   port: 443 }
+644 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.96.96:443
+644 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+644 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+644 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+644 silly fetchPackageMetaData  error for validator@^7.0.0 { Error: connect ETIMEDOUT 104.18.96.96:443
+644 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+644 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+644 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+644 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+644 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+644 silly fetchPackageMetaData   syscall: 'connect',
+644 silly fetchPackageMetaData   address: '104.18.96.96',
+644 silly fetchPackageMetaData   port: 443 }
+645 silly get cb [ 304, undefined ]
+646 verbose etag https://registry.npmjs.org/express from cache
+647 verbose get saving express to C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+648 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+649 silly fetchNamedPackageData No valid target from cache, forcing network
+650 verbose request uri https://registry.npmjs.org/express
+651 verbose request no auth needed
+652 info attempt registry request try #1 at 3:43:58 PM
+653 http request GET https://registry.npmjs.org/express
+654 silly get cb [ 304, undefined ]
+655 verbose etag https://registry.npmjs.org/body-parser from cache
+656 verbose get saving body-parser to C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+657 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+658 silly resolveWithNewModule body-parser@1.18.2 checking installable status
+659 silly cache add args [ 'body-parser@^1.17.1', null ]
+660 verbose cache add spec body-parser@^1.17.1
+661 silly cache add parsed spec Result {
+661 silly cache add   raw: 'body-parser@^1.17.1',
+661 silly cache add   scope: null,
+661 silly cache add   escapedName: 'body-parser',
+661 silly cache add   name: 'body-parser',
+661 silly cache add   rawSpec: '^1.17.1',
+661 silly cache add   spec: '>=1.17.1 <2.0.0',
+661 silly cache add   type: 'range' }
+662 silly addNamed body-parser@>=1.17.1 <2.0.0
+663 verbose addNamed ">=1.17.1 <2.0.0" is a valid semver range for body-parser
+664 silly addNameRange { name: 'body-parser', range: '>=1.17.1 <2.0.0', hasData: false }
+665 silly mapToRegistry name body-parser
+666 silly mapToRegistry using default registry
+667 silly mapToRegistry registry https://registry.npmjs.org/
+668 silly mapToRegistry data Result {
+668 silly mapToRegistry   raw: 'body-parser',
+668 silly mapToRegistry   scope: null,
+668 silly mapToRegistry   escapedName: 'body-parser',
+668 silly mapToRegistry   name: 'body-parser',
+668 silly mapToRegistry   rawSpec: '',
+668 silly mapToRegistry   spec: 'latest',
+668 silly mapToRegistry   type: 'tag' }
+669 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+670 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+671 verbose get https://registry.npmjs.org/body-parser not expired, no request
+672 silly addNameRange number 2 { name: 'body-parser', range: '>=1.17.1 <2.0.0', hasData: true }
+673 silly addNameRange versions [ 'body-parser',
+673 silly addNameRange   [ '1.0.0',
+673 silly addNameRange     '1.0.1',
+673 silly addNameRange     '1.0.2',
+673 silly addNameRange     '1.1.0',
+673 silly addNameRange     '1.1.1',
+673 silly addNameRange     '1.1.2',
+673 silly addNameRange     '1.2.0',
+673 silly addNameRange     '1.2.1',
+673 silly addNameRange     '1.2.2',
+673 silly addNameRange     '1.3.0',
+673 silly addNameRange     '1.3.1',
+673 silly addNameRange     '1.4.0',
+673 silly addNameRange     '1.4.1',
+673 silly addNameRange     '1.4.2',
+673 silly addNameRange     '1.4.3',
+673 silly addNameRange     '1.5.0',
+673 silly addNameRange     '1.5.1',
+673 silly addNameRange     '1.5.2',
+673 silly addNameRange     '1.6.0',
+673 silly addNameRange     '1.6.1',
+673 silly addNameRange     '1.6.2',
+673 silly addNameRange     '1.6.3',
+673 silly addNameRange     '1.6.4',
+673 silly addNameRange     '1.6.5',
+673 silly addNameRange     '1.6.6',
+673 silly addNameRange     '1.6.7',
+673 silly addNameRange     '1.7.0',
+673 silly addNameRange     '1.8.0',
+673 silly addNameRange     '1.8.1',
+673 silly addNameRange     '1.8.2',
+673 silly addNameRange     '1.8.3',
+673 silly addNameRange     '1.8.4',
+673 silly addNameRange     '1.9.0',
+673 silly addNameRange     '1.9.1',
+673 silly addNameRange     '1.9.2',
+673 silly addNameRange     '1.9.3',
+673 silly addNameRange     '1.10.0',
+673 silly addNameRange     '1.10.1',
+673 silly addNameRange     '1.10.2',
+673 silly addNameRange     '1.11.0',
+673 silly addNameRange     '1.12.0',
+673 silly addNameRange     '1.12.1',
+673 silly addNameRange     '1.12.2',
+673 silly addNameRange     '1.12.3',
+673 silly addNameRange     '1.12.4',
+673 silly addNameRange     '1.13.0',
+673 silly addNameRange     '1.13.1',
+673 silly addNameRange     '1.13.2',
+673 silly addNameRange     '1.13.3',
+673 silly addNameRange     '1.14.0',
+673 silly addNameRange     '1.14.1',
+673 silly addNameRange     '1.14.2',
+673 silly addNameRange     '1.15.0',
+673 silly addNameRange     '1.15.1',
+673 silly addNameRange     '1.15.2',
+673 silly addNameRange     '1.16.0',
+673 silly addNameRange     '1.16.1',
+673 silly addNameRange     '1.17.0',
+673 silly addNameRange     '1.17.1',
+673 silly addNameRange     '1.17.2',
+673 silly addNameRange     '1.18.0',
+673 silly addNameRange     '1.18.1',
+673 silly addNameRange     '1.18.2' ] ]
+674 silly addNamed body-parser@1.18.2
+675 verbose addNamed "1.18.2" is a plain semver version for body-parser
+676 silly cache afterAdd body-parser@1.18.2
+677 verbose afterAdd C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\body-parser\1.18.2\package\package.json not in flight; writing
+678 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+679 verbose afterAdd C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\body-parser\1.18.2\package\package.json written
+680 silly get cb [ 304, undefined ]
+681 verbose etag https://registry.npmjs.org/jquery from cache
+682 verbose get saving jquery to C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\registry.npmjs.org\jquery\.cache.json
+683 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+684 silly get cb [ 304, undefined ]
+685 verbose etag https://registry.npmjs.org/glob from cache
+686 verbose get saving glob to C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\registry.npmjs.org\glob\.cache.json
+687 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+688 silly get cb [ 304, undefined ]
+689 verbose etag https://registry.npmjs.org/mongoose from cache
+690 verbose get saving mongoose to C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose\.cache.json
+691 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+692 silly resolveWithNewModule jquery@3.3.1 checking installable status
+693 silly cache add args [ 'jquery@^3.3.1', null ]
+694 verbose cache add spec jquery@^3.3.1
+695 silly cache add parsed spec Result {
+695 silly cache add   raw: 'jquery@^3.3.1',
+695 silly cache add   scope: null,
+695 silly cache add   escapedName: 'jquery',
+695 silly cache add   name: 'jquery',
+695 silly cache add   rawSpec: '^3.3.1',
+695 silly cache add   spec: '>=3.3.1 <4.0.0',
+695 silly cache add   type: 'range' }
+696 silly addNamed jquery@>=3.3.1 <4.0.0
+697 verbose addNamed ">=3.3.1 <4.0.0" is a valid semver range for jquery
+698 silly addNameRange { name: 'jquery', range: '>=3.3.1 <4.0.0', hasData: false }
+699 silly mapToRegistry name jquery
+700 silly mapToRegistry using default registry
+701 silly mapToRegistry registry https://registry.npmjs.org/
+702 silly mapToRegistry data Result {
+702 silly mapToRegistry   raw: 'jquery',
+702 silly mapToRegistry   scope: null,
+702 silly mapToRegistry   escapedName: 'jquery',
+702 silly mapToRegistry   name: 'jquery',
+702 silly mapToRegistry   rawSpec: '',
+702 silly mapToRegistry   spec: 'latest',
+702 silly mapToRegistry   type: 'tag' }
+703 silly mapToRegistry uri https://registry.npmjs.org/jquery
+704 verbose addNameRange registry:https://registry.npmjs.org/jquery not in flight; fetching
+705 verbose get https://registry.npmjs.org/jquery not expired, no request
+706 silly addNameRange number 2 { name: 'jquery', range: '>=3.3.1 <4.0.0', hasData: true }
+707 silly addNameRange versions [ 'jquery',
+707 silly addNameRange   [ '1.5.1',
+707 silly addNameRange     '1.6.2',
+707 silly addNameRange     '1.6.3',
+707 silly addNameRange     '1.7.2',
+707 silly addNameRange     '1.7.3',
+707 silly addNameRange     '1.8.2',
+707 silly addNameRange     '1.8.3',
+707 silly addNameRange     '2.1.0-beta2',
+707 silly addNameRange     '2.1.0-beta3',
+707 silly addNameRange     '1.11.0-beta3',
+707 silly addNameRange     '1.11.0-rc1',
+707 silly addNameRange     '2.1.0-rc1',
+707 silly addNameRange     '1.11.0',
+707 silly addNameRange     '2.1.0',
+707 silly addNameRange     '2.1.1-beta1',
+707 silly addNameRange     '1.11.1-beta1',
+707 silly addNameRange     '2.1.1-rc1',
+707 silly addNameRange     '1.11.1-rc1',
+707 silly addNameRange     '2.1.1-rc2',
+707 silly addNameRange     '1.11.1-rc2',
+707 silly addNameRange     '2.1.1',
+707 silly addNameRange     '1.11.1',
+707 silly addNameRange     '1.9.1',
+707 silly addNameRange     '2.1.2',
+707 silly addNameRange     '1.11.2',
+707 silly addNameRange     '2.1.3',
+707 silly addNameRange     '2.1.4',
+707 silly addNameRange     '1.11.3',
+707 silly addNameRange     '3.0.0-alpha1',
+707 silly addNameRange     '1.12.0',
+707 silly addNameRange     '2.2.0',
+707 silly addNameRange     '3.0.0-beta1',
+707 silly addNameRange     '1.12.1',
+707 silly addNameRange     '2.2.1',
+707 silly addNameRange     '1.12.2',
+707 silly addNameRange     '2.2.2',
+707 silly addNameRange     '1.12.3',
+707 silly addNameRange     '2.2.3',
+707 silly addNameRange     '1.12.4',
+707 silly addNameRange     '2.2.4',
+707 silly addNameRange     '3.0.0-rc1',
+707 silly addNameRange     '3.0.0',
+707 silly addNameRange     '3.1.0',
+707 silly addNameRange     '3.1.1',
+707 silly addNameRange     '3.2.0',
+707 silly addNameRange     '3.2.1',
+707 silly addNameRange     '3.3.0',
+707 silly addNameRange     '3.3.1' ] ]
+708 silly addNamed jquery@3.3.1
+709 verbose addNamed "3.3.1" is a plain semver version for jquery
+710 silly resolveWithNewModule glob@7.1.2 checking installable status
+711 silly cache add args [ 'glob@^7.1.1', null ]
+712 verbose cache add spec glob@^7.1.1
+713 silly cache add parsed spec Result {
+713 silly cache add   raw: 'glob@^7.1.1',
+713 silly cache add   scope: null,
+713 silly cache add   escapedName: 'glob',
+713 silly cache add   name: 'glob',
+713 silly cache add   rawSpec: '^7.1.1',
+713 silly cache add   spec: '>=7.1.1 <8.0.0',
+713 silly cache add   type: 'range' }
+714 silly addNamed glob@>=7.1.1 <8.0.0
+715 verbose addNamed ">=7.1.1 <8.0.0" is a valid semver range for glob
+716 silly addNameRange { name: 'glob', range: '>=7.1.1 <8.0.0', hasData: false }
+717 silly mapToRegistry name glob
+718 silly mapToRegistry using default registry
+719 silly mapToRegistry registry https://registry.npmjs.org/
+720 silly mapToRegistry data Result {
+720 silly mapToRegistry   raw: 'glob',
+720 silly mapToRegistry   scope: null,
+720 silly mapToRegistry   escapedName: 'glob',
+720 silly mapToRegistry   name: 'glob',
+720 silly mapToRegistry   rawSpec: '',
+720 silly mapToRegistry   spec: 'latest',
+720 silly mapToRegistry   type: 'tag' }
+721 silly mapToRegistry uri https://registry.npmjs.org/glob
+722 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+723 silly resolveWithNewModule mongoose@4.13.14 checking installable status
+724 silly cache add args [ 'mongoose@^4.13.12', null ]
+725 verbose cache add spec mongoose@^4.13.12
+726 silly cache add parsed spec Result {
+726 silly cache add   raw: 'mongoose@^4.13.12',
+726 silly cache add   scope: null,
+726 silly cache add   escapedName: 'mongoose',
+726 silly cache add   name: 'mongoose',
+726 silly cache add   rawSpec: '^4.13.12',
+726 silly cache add   spec: '>=4.13.12 <5.0.0',
+726 silly cache add   type: 'range' }
+727 silly addNamed mongoose@>=4.13.12 <5.0.0
+728 verbose addNamed ">=4.13.12 <5.0.0" is a valid semver range for mongoose
+729 silly addNameRange { name: 'mongoose', range: '>=4.13.12 <5.0.0', hasData: false }
+730 silly mapToRegistry name mongoose
+731 silly mapToRegistry using default registry
+732 silly mapToRegistry registry https://registry.npmjs.org/
+733 silly mapToRegistry data Result {
+733 silly mapToRegistry   raw: 'mongoose',
+733 silly mapToRegistry   scope: null,
+733 silly mapToRegistry   escapedName: 'mongoose',
+733 silly mapToRegistry   name: 'mongoose',
+733 silly mapToRegistry   rawSpec: '',
+733 silly mapToRegistry   spec: 'latest',
+733 silly mapToRegistry   type: 'tag' }
+734 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+735 verbose addNameRange registry:https://registry.npmjs.org/mongoose not in flight; fetching
+736 verbose get https://registry.npmjs.org/glob not expired, no request
+737 silly addNameRange number 2 { name: 'glob', range: '>=7.1.1 <8.0.0', hasData: true }
+738 silly addNameRange versions [ 'glob',
+738 silly addNameRange   [ '1.1.0',
+738 silly addNameRange     '2.0.9',
+738 silly addNameRange     '2.0.8',
+738 silly addNameRange     '2.0.7',
+738 silly addNameRange     '2.1.0',
+738 silly addNameRange     '3.0.0',
+738 silly addNameRange     '3.0.1',
+738 silly addNameRange     '3.1.0',
+738 silly addNameRange     '3.1.1',
+738 silly addNameRange     '3.1.2',
+738 silly addNameRange     '3.1.3',
+738 silly addNameRange     '3.1.4',
+738 silly addNameRange     '3.1.5',
+738 silly addNameRange     '3.1.6',
+738 silly addNameRange     '3.1.7',
+738 silly addNameRange     '3.1.9',
+738 silly addNameRange     '3.1.10',
+738 silly addNameRange     '3.1.11',
+738 silly addNameRange     '3.1.12',
+738 silly addNameRange     '3.1.13',
+738 silly addNameRange     '3.1.14',
+738 silly addNameRange     '3.1.15',
+738 silly addNameRange     '3.1.16',
+738 silly addNameRange     '3.1.17',
+738 silly addNameRange     '3.1.18',
+738 silly addNameRange     '3.1.19',
+738 silly addNameRange     '3.1.20',
+738 silly addNameRange     '3.1.21',
+738 silly addNameRange     '3.2.0',
+738 silly addNameRange     '3.2.1',
+738 silly addNameRange     '3.2.3',
+738 silly addNameRange     '3.2.4',
+738 silly addNameRange     '3.2.5',
+738 silly addNameRange     '3.2.6',
+738 silly addNameRange     '3.2.7',
+738 silly addNameRange     '3.2.8',
+738 silly addNameRange     '3.2.9',
+738 silly addNameRange     '3.2.10',
+738 silly addNameRange     '3.2.11',
+738 silly addNameRange     '4.0.0',
+738 silly addNameRange     '4.0.1',
+738 silly addNameRange     '4.0.2',
+738 silly addNameRange     '4.0.3',
+738 silly addNameRange     '4.0.4',
+738 silly addNameRange     '4.0.5',
+738 silly addNameRange     '4.0.6',
+738 silly addNameRange     '4.1.2-beta',
+738 silly addNameRange     '4.1.2',
+738 silly addNameRange     '4.1.3',
+738 silly addNameRange     '4.1.4',
+738 silly addNameRange     '4.1.5',
+738 silly addNameRange     '4.1.6',
+738 silly addNameRange     '4.2.0',
+738 silly addNameRange     '4.2.1',
+738 silly addNameRange     '4.2.2',
+738 silly addNameRange     '4.3.0',
+738 silly addNameRange     '4.3.1',
+738 silly addNameRange     '4.3.2',
+738 silly addNameRange     '4.3.3',
+738 silly addNameRange     '4.3.4',
+738 silly addNameRange     '4.3.5',
+738 silly addNameRange     '4.4.0',
+738 silly addNameRange     '4.4.2',
+738 silly addNameRange     '4.5.0',
+738 silly addNameRange     '5.0.0',
+738 silly addNameRange     '4.5.1',
+738 silly addNameRange     '5.0.1',
+738 silly addNameRange     '4.5.2',
+738 silly addNameRange     '5.0.2',
+738 silly addNameRange     '4.5.3',
+738 silly addNameRange     '5.0.3',
+738 silly addNameRange     '5.0.4',
+738 silly addNameRange     '5.0.5',
+738 silly addNameRange     '5.0.6',
+738 silly addNameRange     '5.0.7',
+738 silly addNameRange     '5.0.9',
+738 silly addNameRange     '5.0.10',
+738 silly addNameRange     '5.0.11',
+738 silly addNameRange     '5.0.12',
+738 silly addNameRange     '5.0.13',
+738 silly addNameRange     '5.0.14',
+738 silly addNameRange     '5.0.15',
+738 silly addNameRange     '6.0.1',
+738 silly addNameRange     '6.0.2',
+738 silly addNameRange     '6.0.3',
+738 silly addNameRange     '6.0.4',
+738 silly addNameRange     '7.0.0',
+738 silly addNameRange     '7.0.1',
+738 silly addNameRange     '7.0.3',
+738 silly addNameRange     '7.0.4',
+738 silly addNameRange     '7.0.5',
+738 silly addNameRange     '7.0.6',
+738 silly addNameRange     '7.1.0',
+738 silly addNameRange     '7.1.1',
+738 silly addNameRange     '7.1.2' ] ]
+739 silly addNamed glob@7.1.2
+740 verbose addNamed "7.1.2" is a plain semver version for glob
+741 verbose get https://registry.npmjs.org/mongoose not expired, no request
+742 silly addNameRange number 2 { name: 'mongoose', range: '>=4.13.12 <5.0.0', hasData: true }
+743 silly addNameRange versions [ 'mongoose',
+743 silly addNameRange   [ '0.0.1',
+743 silly addNameRange     '0.0.2',
+743 silly addNameRange     '0.0.3',
+743 silly addNameRange     '0.0.4',
+743 silly addNameRange     '0.0.5',
+743 silly addNameRange     '1.0.0',
+743 silly addNameRange     '1.0.1',
+743 silly addNameRange     '1.0.2',
+743 silly addNameRange     '0.0.6',
+743 silly addNameRange     '1.0.3',
+743 silly addNameRange     '1.0.4',
+743 silly addNameRange     '1.0.5',
+743 silly addNameRange     '1.0.6',
+743 silly addNameRange     '1.0.7',
+743 silly addNameRange     '1.0.8',
+743 silly addNameRange     '1.0.10',
+743 silly addNameRange     '1.0.11',
+743 silly addNameRange     '1.0.12',
+743 silly addNameRange     '1.0.13',
+743 silly addNameRange     '1.0.14',
+743 silly addNameRange     '1.0.15',
+743 silly addNameRange     '1.0.16',
+743 silly addNameRange     '1.1.0',
+743 silly addNameRange     '1.1.1',
+743 silly addNameRange     '1.1.2',
+743 silly addNameRange     '1.1.3',
+743 silly addNameRange     '1.1.4',
+743 silly addNameRange     '1.1.5',
+743 silly addNameRange     '1.1.6',
+743 silly addNameRange     '1.1.7',
+743 silly addNameRange     '1.1.8',
+743 silly addNameRange     '1.1.9',
+743 silly addNameRange     '1.1.10',
+743 silly addNameRange     '1.1.11',
+743 silly addNameRange     '1.1.12',
+743 silly addNameRange     '1.1.13',
+743 silly addNameRange     '1.1.14',
+743 silly addNameRange     '1.1.15',
+743 silly addNameRange     '1.1.16',
+743 silly addNameRange     '1.1.17',
+743 silly addNameRange     '1.1.18',
+743 silly addNameRange     '1.1.19',
+743 silly addNameRange     '1.1.20',
+743 silly addNameRange     '1.1.21',
+743 silly addNameRange     '1.1.22',
+743 silly addNameRange     '1.1.23',
+743 silly addNameRange     '1.1.24',
+743 silly addNameRange     '1.1.25',
+743 silly addNameRange     '1.2.0',
+743 silly addNameRange     '1.3.0',
+743 silly addNameRange     '1.3.1',
+743 silly addNameRange     '1.3.2',
+743 silly addNameRange     '1.3.3',
+743 silly addNameRange     '1.3.4',
+743 silly addNameRange     '1.3.5',
+743 silly addNameRange     '1.3.6',
+743 silly addNameRange     '1.3.7',
+743 silly addNameRange     '1.4.0',
+743 silly addNameRange     '1.5.0',
+743 silly addNameRange     '1.6.0',
+743 silly addNameRange     '1.7.2',
+743 silly addNameRange     '1.7.3',
+743 silly addNameRange     '1.7.4',
+743 silly addNameRange     '1.8.0',
+743 silly addNameRange     '1.8.1',
+743 silly addNameRange     '1.8.2',
+743 silly addNameRange     '1.8.3',
+743 silly addNameRange     '1.8.4',
+743 silly addNameRange     '2.0.0',
+743 silly addNameRange     '2.0.1',
+743 silly addNameRange     '2.0.2',
+743 silly addNameRange     '2.0.3',
+743 silly addNameRange     '2.0.4',
+743 silly addNameRange     '2.1.0',
+743 silly addNameRange     '2.1.1',
+743 silly addNameRange     '2.1.2',
+743 silly addNameRange     '2.1.3',
+743 silly addNameRange     '2.1.4',
+743 silly addNameRange     '2.2.0',
+743 silly addNameRange     '2.2.1',
+743 silly addNameRange     '2.2.2',
+743 silly addNameRange     '2.2.3',
+743 silly addNameRange     '2.2.4',
+743 silly addNameRange     '2.3.0',
+743 silly addNameRange     '2.3.1',
+743 silly addNameRange     '2.3.2',
+743 silly addNameRange     '2.3.3',
+743 silly addNameRange     '2.3.4',
+743 silly addNameRange     '2.3.5',
+743 silly addNameRange     '2.3.6',
+743 silly addNameRange     '2.3.7',
+743 silly addNameRange     '2.3.8',
+743 silly addNameRange     '2.3.9',
+743 silly addNameRange     '2.3.10',
+743 silly addNameRange     '2.3.11',
+743 silly addNameRange     '2.3.12',
+743 silly addNameRange     '2.3.13',
+743 silly addNameRange     '2.4.0',
+743 silly addNameRange     '2.4.1',
+743 silly addNameRange     '2.4.2',
+743 silly addNameRange     ... 345 more items ] ]
+744 silly addNamed mongoose@4.13.14
+745 verbose addNamed "4.13.14" is a plain semver version for mongoose
+746 silly get cb [ 304, undefined ]
+747 verbose etag https://registry.npmjs.org/uuid from cache
+748 verbose get saving uuid to C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\registry.npmjs.org\uuid\.cache.json
+749 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+750 silly mapToRegistry name mongoose
+751 silly mapToRegistry using default registry
+752 silly mapToRegistry registry https://registry.npmjs.org/
+753 silly mapToRegistry data Result {
+753 silly mapToRegistry   raw: 'mongoose',
+753 silly mapToRegistry   scope: null,
+753 silly mapToRegistry   escapedName: 'mongoose',
+753 silly mapToRegistry   name: 'mongoose',
+753 silly mapToRegistry   rawSpec: '',
+753 silly mapToRegistry   spec: 'latest',
+753 silly mapToRegistry   type: 'tag' }
+754 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+755 verbose addRemoteTarball https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz not in flight; adding
+756 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz',
+756 verbose addRemoteTarball   '0eb6d4fc6a15c9834994ab4102da614421d1dff0' ]
+757 silly cache afterAdd jquery@3.3.1
+758 verbose afterAdd C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\jquery\3.3.1\package\package.json not in flight; writing
+759 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+760 silly cache afterAdd glob@7.1.2
+761 verbose afterAdd C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\glob\7.1.2\package\package.json not in flight; writing
+762 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+763 info retry fetch attempt 1 at 3:44:00 PM
+764 info attempt registry request try #1 at 3:44:00 PM
+765 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+766 verbose afterAdd C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\jquery\3.3.1\package\package.json written
+767 silly resolveWithNewModule uuid@3.2.1 checking installable status
+768 silly cache add args [ 'uuid@^3.2.1', null ]
+769 verbose cache add spec uuid@^3.2.1
+770 silly cache add parsed spec Result {
+770 silly cache add   raw: 'uuid@^3.2.1',
+770 silly cache add   scope: null,
+770 silly cache add   escapedName: 'uuid',
+770 silly cache add   name: 'uuid',
+770 silly cache add   rawSpec: '^3.2.1',
+770 silly cache add   spec: '>=3.2.1 <4.0.0',
+770 silly cache add   type: 'range' }
+771 silly addNamed uuid@>=3.2.1 <4.0.0
+772 verbose addNamed ">=3.2.1 <4.0.0" is a valid semver range for uuid
+773 silly addNameRange { name: 'uuid', range: '>=3.2.1 <4.0.0', hasData: false }
+774 silly mapToRegistry name uuid
+775 silly mapToRegistry using default registry
+776 silly mapToRegistry registry https://registry.npmjs.org/
+777 silly mapToRegistry data Result {
+777 silly mapToRegistry   raw: 'uuid',
+777 silly mapToRegistry   scope: null,
+777 silly mapToRegistry   escapedName: 'uuid',
+777 silly mapToRegistry   name: 'uuid',
+777 silly mapToRegistry   rawSpec: '',
+777 silly mapToRegistry   spec: 'latest',
+777 silly mapToRegistry   type: 'tag' }
+778 silly mapToRegistry uri https://registry.npmjs.org/uuid
+779 verbose addNameRange registry:https://registry.npmjs.org/uuid not in flight; fetching
+780 verbose afterAdd C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\glob\7.1.2\package\package.json written
+781 verbose get https://registry.npmjs.org/uuid not expired, no request
+782 silly addNameRange number 2 { name: 'uuid', range: '>=3.2.1 <4.0.0', hasData: true }
+783 silly addNameRange versions [ 'uuid',
+783 silly addNameRange   [ '0.0.1',
+783 silly addNameRange     '0.0.2',
+783 silly addNameRange     '1.4.0',
+783 silly addNameRange     '1.4.1',
+783 silly addNameRange     '1.4.2',
+783 silly addNameRange     '2.0.0',
+783 silly addNameRange     '2.0.1',
+783 silly addNameRange     '2.0.2',
+783 silly addNameRange     '2.0.3',
+783 silly addNameRange     '3.0.0',
+783 silly addNameRange     '3.0.1',
+783 silly addNameRange     '3.1.0',
+783 silly addNameRange     '3.2.0',
+783 silly addNameRange     '3.2.1' ] ]
+784 silly addNamed uuid@3.2.1
+785 verbose addNamed "3.2.1" is a plain semver version for uuid
+786 silly cache afterAdd uuid@3.2.1
+787 verbose afterAdd C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\uuid\3.2.1\package\package.json not in flight; writing
+788 verbose correctMkdir C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+789 verbose afterAdd C:\Users\CHIDIEBERE\AppData\Roaming\npm-cache\uuid\3.2.1\package\package.json written
+790 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+791 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+792 info attempt registry request try #2 at 3:44:33 PM
+793 http request GET https://registry.npmjs.org/express
+794 info attempt registry request try #2 at 3:44:33 PM
+795 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+796 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+797 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+798 info attempt registry request try #3 at 3:45:58 PM
+799 http request GET https://registry.npmjs.org/express
+800 info attempt registry request try #3 at 3:46:00 PM
+801 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+802 silly fetchPackageMetaData Error: connect ETIMEDOUT 104.18.97.96:443
+802 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+802 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+802 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+802 silly fetchPackageMetaData  error for express@^4.16.3 { Error: connect ETIMEDOUT 104.18.97.96:443
+802 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+802 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+802 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+802 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+802 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+802 silly fetchPackageMetaData   syscall: 'connect',
+802 silly fetchPackageMetaData   address: '104.18.97.96',
+802 silly fetchPackageMetaData   port: 443 }
+803 error fetch failed https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+804 warn retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+805 info retry fetch attempt 2 at 3:46:34 PM
+806 info attempt registry request try #1 at 3:46:34 PM
+807 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+808 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.96.96:443
+809 info attempt registry request try #2 at 3:47:09 PM
+810 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+811 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.97.96:443
+812 info attempt registry request try #3 at 3:48:34 PM
+813 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+814 error fetch failed https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+815 warn retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.98.96:443
+816 info retry fetch attempt 3 at 3:49:59 PM
+817 info attempt registry request try #1 at 3:49:59 PM
+818 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+819 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.94.96:443
+820 info attempt registry request try #2 at 3:50:34 PM
+821 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+822 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.18.95.96:443
+823 info attempt registry request try #3 at 3:51:59 PM
+824 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+825 error fetch failed https://registry.npmjs.org/mongoose/-/mongoose-4.13.14.tgz
+826 silly rollbackFailedOptional Starting
+827 silly rollbackFailedOptional Finishing
+828 silly runTopLevelLifecycles Finishing
+829 silly install printInstalled
+830 verbose stack Error: connect ETIMEDOUT 104.18.94.96:443
+830 verbose stack     at Object.exports._errnoException (util.js:1018:11)
+830 verbose stack     at exports._exceptionWithHostPort (util.js:1041:20)
+830 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+831 verbose cwd C:\Users\CHIDIEBERE\Desktop\BlackOut-master\BlackOut-master
+832 error Windows_NT 10.0.10240
+833 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+834 error node v6.10.3
+835 error npm  v3.10.10
+836 error code ETIMEDOUT
+837 error errno ETIMEDOUT
+838 error syscall connect
+839 error network connect ETIMEDOUT 104.18.94.96:443
+840 error network This is most likely not a problem with npm itself
+840 error network and is related to network connectivity.
+840 error network In most cases you are behind a proxy or have bad network settings.
+840 error network
+840 error network If you are behind a proxy, please make sure that the
+840 error network 'proxy' config is set properly.  See: 'npm help config'
+841 verbose exit [ 1, true ]

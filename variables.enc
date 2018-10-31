@@ -1,0 +1,5 @@
+NODE_ENV=development
+DATABASE=mongodb://ahmed:motunrayo.10@ds117701.mlab.com:17701/blackout
+PORT=7080
+SECRET=snickers
+KEY=sweetsesh
